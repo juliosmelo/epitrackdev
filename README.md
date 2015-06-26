@@ -2,10 +2,10 @@ Download Ubuntu Trust64 vm box from https://atlas.hashicorp.com/ and install mon
 
 ## Requirements
 
-VirtualBox (latest)
-Vagrant 1.7.1
-Vagrant plugin for ansible provisioner
-Ansible (latest)
+1. VirtualBox (latest)
+2. Vagrant 1.7.1
+3. Vagrant plugin for ansible provisioner
+4. Ansible (latest)
 
 ```shell
 vagrant plugin install ansible
