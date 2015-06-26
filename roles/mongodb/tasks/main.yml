@@ -13,7 +13,7 @@
 - name: Install mongodb server i386
   sudo: yes
   apt: name=mongodb state=present update_cache=yes
-  when: ansible_architecture !== "x86_64"
+  when: ansible_architecture != "x86_64"
 
 - name: Install mongodb server arch x86_64
   sudo: yes
