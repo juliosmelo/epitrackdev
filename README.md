@@ -1,14 +1,24 @@
-Download trust64 vm box from https://atlas.hashicorp.com/ and install mongodb, nodejs in a VM Virtual Box with Ansible and Vagrant
+Download Ubuntu Trust64 vm box from https://atlas.hashicorp.com/ and install mongodb, nodejs in a vm Virtual Box with Ansible and Vagrant.
 
-Requirements
+## Requirements
 
-VirtualBox (lastest)
+VirtualBox (latest)
 Vagrant 1.7.1
-Vagrant plugin ansible
+Vagrant plugin for ansible provisioner
 
+```shell
 vagrant plugin install ansible
+```
 
-Usage
-1 clone the repository
-2 vagrant up
-3 be happy!
+## Usage
+1. clone this repository
+```shell
+  git clone git@github.com:juliosmelo/epitrackdev.git
+```
+2. Up vm
+```shell
+  vagrant up
+```
+3. be happy!
+
+Does not support Windows, feel free to add Windows support :)
