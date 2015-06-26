@@ -12,14 +12,14 @@ vagrant plugin install ansible
 ```
 
 ## Usage
-1. clone this repository
+* clone this repository
 ```shell
   git clone git@github.com:juliosmelo/epitrackdev.git
 ```
-2. Up vm
+* Up vm
 ```shell
   vagrant up
 ```
-3. be happy!
+* be happy!
 
 Does not support Windows, feel free to add Windows support :)
