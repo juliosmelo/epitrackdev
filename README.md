@@ -5,6 +5,7 @@ Download Ubuntu Trust64 vm box from https://atlas.hashicorp.com/ and install mon
 VirtualBox (latest)
 Vagrant 1.7.1
 Vagrant plugin for ansible provisioner
+Ansible (latest)
 
 ```shell
 vagrant plugin install ansible
