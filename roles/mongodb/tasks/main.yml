@@ -10,9 +10,10 @@
   apt_repository: repo='deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse' state=present
   when: ansible_architecture == "x86_64"
 
-- name: Install mongodb server
+- name: Install mongodb server i386
   sudo: yes
   apt: name=mongodb state=present update_cache=yes
+  when: ansible_architecture !== "x86_64"
 
 - name: Install mongodb server arch x86_64
   sudo: yes
